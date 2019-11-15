@@ -6,7 +6,7 @@ int main(){
 	for(i=1;i<=t;i++){
 	e=t-i;
 	for(j=1;j<=e;j++)
-		printf(" ");
+		printf("%d\n");
 
 	for(j=1;j<=i;j++){
 		v=(i+j-1)%10;
